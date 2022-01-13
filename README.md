@@ -36,8 +36,8 @@ A CRUD app made using REACT to manage inventory
     6. For each item row there are 2 options; Update and Delete
     7. Clicking on the "Delete" button removes the corresponding item from the inventory
     8. Clicking on the "Update" Button redirects to an update page for the corresponding item.
-        a. It is mandatory to press the "Load Data" button to proceed, this fills in pre-existing information about the item
-        b. Changes can be made the displayed fields. However, leaving a mandatory field empty would result in no updates being applied to the record.
-        c. Clicking on the "Update Record" button will process the request on the backend. A success alert will be shown if the update is applied.
-        d. Users can return to the main page by clicking on the blue "Inventory Basics" header
+    9. It is mandatory to press the "Load Data" button to proceed, this fills in pre-existing information about the item
+    10. Changes can be made the displayed fields. However, leaving a mandatory field empty would result in no updates being applied to the record.
+    11. Clicking on the "Update Record" button will process the request on the backend. A success alert will be shown if the update is applied.
+    12. Users can return to the main page by clicking on the blue "Inventory Basics" header
     
