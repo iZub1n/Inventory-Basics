@@ -8,11 +8,11 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const pool = new Pool({
-  user: "kpuxdxflpigfhe",
-  host: "ec2-52-44-58-234.compute-1.amazonaws.com",
-  database: "datt8mulmo4vhl",
-  password: "2bb74977aad1899cd2ffaa21692e07f81dbf08c53d93054212f64190542f1359",
-  port: 5432,
+  user: process.env.USER,
+  host: process.env.HOST,
+  database: process.env.DB,
+  password: process.env.PASSWWORD,
+  port: process.env.PORT,
   ssl: {
     rejectUnauthorized: false,
   },
