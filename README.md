@@ -1,6 +1,6 @@
 # Inventory-Basics
 A CRUD app made using REACT to manage inventory
-
+Shopify Challenge: https://docs.google.com/document/d/1z9LZ_kZBUbg-O2MhZVVSqTmvDko5IJWHtuFmIu_Xg1A/edit
 
 ## How To Run
 
